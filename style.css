@@ -1,0 +1,269 @@
+html {
+    font-family: 'Exo', sans-serif;
+    
+}
+h1 {
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 26px;
+    font-size: 64px;
+}
+p {
+    font-size: 24px;
+}
+.menu {
+    font-size: 20px;
+    padding: 5px 7px;
+}
+.logo {
+    font-family: 'Lobster', cursive; 
+    font-size: 48px;
+}
+.nav {
+    display:flex;
+    justify-content: space-between;
+    padding:  0px;
+    text-align: center;
+    line-height: 20px; 
+    margin: 0px;
+    align-items: center;
+    
+}
+li {
+    list-style: none;
+}
+.contact {
+    text-align: right;
+    padding-top: 20px;
+    line-height: 26px;
+    
+}
+nav {
+    background-color: rgb(247, 247, 247);
+    padding: 20px 45px 15px 40px;
+    border: 1px solid rgb(219, 219, 219);
+    
+}
+.hover {
+    background-color: #d6a17b ;
+}
+.icon {
+    padding-top: 2px;
+    margin-bottom: -3px;
+    width: 20px;
+    height: auto;
+}
+/* -----------------------Banner----------------------- */
+
+.banner {
+    background-image: url('./img/tarimsal.png') ;
+    background-position: center;
+    color: whitesmoke;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 100%;
+    height: 40vh; */
+}
+.banner h1 {
+    text-align: left;
+    font: bold;
+    font-size: 85px;
+    padding:60px 40px 0px 50px;
+    margin: 0%;
+}
+.banner p {
+    text-align: left;
+    font-size: 35px;
+    padding: 15px 40px 60px 50px;
+    font-family: 'Exo', sans-serif;
+    margin: 0%;
+}
+/* ------------------------Body------------------------- */
+
+body {
+    max-width: 1000px;
+    margin: auto;
+
+}
+.body {
+    padding: 10px 40px 30px 45px ;
+    border: 1px solid rgb(219, 219, 219);
+    border-bottom: none;
+  
+}
+
+
+.text {
+    width: 78%;
+  
+}
+.text p {
+    margin: 0%;
+    font-size: 24px ;
+    font-style: italic;
+}
+img {
+    padding-top: 40px;
+    width: 16.5vh;
+    
+}
+.expert p {
+    font-size: 20px ;
+    font-style: italic;
+    margin: 0%;
+}
+/* ---------------------------------------------------------------------- */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    font-style: italic;
+    font-size: 20px;
+    margin: 0px 0px;
+}
+.cursive {
+    font-style: italic;
+    font-size: 22px;
+    margin: 0px 0px;
+    color: steelblue;
+}
+.text-container {
+    width: 66%;
+    margin: 0%;
+    font-size: 24px;
+}
+.percent-cursive {
+    font-size: 30px;
+    font-style: italic;
+    margin: 0%;
+}
+.lower {
+    width: 55%;
+}
+.second-colomn, .third-colomn {
+    text-align: left;
+}
+
+.percent {
+    margin: 0%;
+    font-size: 96px;
+    font-weight: 500;
+    font-style: italic;
+}
+/* ------------------------------------------------------------------------ */
+
+.main-text {
+    font-size: 24px;
+}
+.feautres-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.feautres-container-column div {
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: space-between;
+}
+.feautres-container-column div p {
+   font-size: 24px;
+   width: 300px;
+}
+.feature-icon {
+    width: 15%;
+    padding-top: 0%;
+}
+
+/* ---------------------------------------------------------- */
+
+.process-block {
+    display: flex;
+    align-items: center;
+    background-color: #d6a17b ;
+    margin-top: 30px ;
+}
+.process-description {
+    align-self: flex-start;
+    color: white;
+    margin: 0%;
+    padding: 50px 20px 0px 40px;
+    line-height: 35px;
+}
+.main-pic {
+    width: 50%;
+    padding-top: 0%;
+}
+
+.third-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  
+}
+.item-container {
+    width: 290px;
+    /* height: 35vmin; */
+}
+.item-name {
+    font-size:  17px;
+    margin-top: 0%;
+    text-decoration: underline;
+}
+.item-img {
+    padding-top: 0px;
+    width: 100%;
+}
+
+
+.item-description {
+    font-size: 20px; 
+    width: 96%;
+} 
+h2 {
+    font-size: calc(12px + 1.3vmin);
+    font-weight: 470;  
+    margin-bottom: 0%;
+}
+/* ------------------------------------------------------------ */
+footer {
+    padding: 20px 45px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(219, 219, 219);
+    border-top: none;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+footer div p{
+   font-size: 25.5px;
+
+}
+.footer-list {
+    padding: 0%;
+    width: 270px;
+}
+.footer-list li {
+    font-size: 20px;
+    line-height: 35px;
+}
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-end h3 {
+    font-family: 'Lobster', cursive; 
+    font-size: 30px;
+}
+.footer-end p {
+   font-style: italic;
+    font-size: 15px;
+}
