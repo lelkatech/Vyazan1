@@ -5,8 +5,8 @@ html {
 h1 {
     font-family: 'Exo', sans-serif;
     font-weight: 400;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 38px;
+    margin-bottom: 0px;
     font-size: 64px;
 }
 p {
@@ -15,10 +15,12 @@ p {
 .menu {
     font-size: 20px;
     padding: 5px 7px;
+    margin-top: -10px;
 }
 .logo {
     font-family: 'Lobster', cursive; 
     font-size: 48px;
+    margin-top: -22px;
 }
 .nav {
     display:flex;
@@ -34,14 +36,17 @@ li {
     list-style: none;
 }
 .contact {
+    font-size: 20px;
+    padding: 5px 7px;
     text-align: right;
-    padding-top: 20px;
-    line-height: 26px;
+    /*margin-top: 25px;*/
+    padding-top: 35px;
+    line-height: 38px;
     
 }
 nav {
     background-color: rgb(247, 247, 247);
-    padding: 20px 45px 15px 40px;
+    padding: 7px 45px 2px 40px;
     border: 1px solid rgb(219, 219, 219);
     
 }
@@ -66,15 +71,14 @@ nav {
 }
 .banner h1 {
     text-align: left;
-    font: bold;
     font-size: 85px;
-    padding:60px 40px 0px 50px;
+    padding:88px 40px 0px 50px;
     margin: 0%;
 }
 .banner p {
     text-align: left;
     font-size: 35px;
-    padding: 15px 40px 60px 50px;
+    padding: 20px 40px 100px 50px;
     font-family: 'Exo', sans-serif;
     margin: 0%;
 }
@@ -86,7 +90,7 @@ body {
 
 }
 .body {
-    padding: 10px 40px 30px 45px ;
+    padding: 25px 40px 30px 45px ;
     border: 1px solid rgb(219, 219, 219);
     border-bottom: none;
   
@@ -94,7 +98,7 @@ body {
 
 
 .text {
-    width: 78%;
+    width: 100%;
   
 }
 .text p {
@@ -103,15 +107,23 @@ body {
     font-style: italic;
 }
 img {
-    padding-top: 40px;
-    width: 16.5vh;
+    padding-top: 10px;
+    width: 82%;
     
+}
+.expert {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: -20px;
 }
 .expert p {
     font-size: 20px ;
     font-style: italic;
     margin: 0%;
     text-align: center;
+    padding-top: 15px;
 }
 /* ---------------------------------------------------------------------- */
 .container {
@@ -133,23 +145,26 @@ img {
 }
 .text-container {
     width: 66%;
-    margin: 0%;
+    margin: 2px 0% 0px 0px;
     font-size: 24px;
+    /*margin-top: 2px;*/
 }
 .percent-cursive {
     font-size: 30px;
     font-style: italic;
-    margin: 0%;
+    margin: -7px 0px 0px 0px;
 }
 .lower {
     width: 55%;
+    margin-top: 20px;
 }
 .second-colomn, .third-colomn {
     text-align: left;
+    margin-top: -10px;
 }
 
 .percent {
-    margin: 0%;
+    margin: -5px 12px 0px 0px;
     font-size: 96px;
     font-weight: 500;
     font-style: italic;
@@ -158,9 +173,11 @@ img {
 
 .main-text {
     font-size: 24px;
+    margin-top: 9px;
+    margin-bottom: 35px;
 }
 .feautres-container {
-    padding: 30px 0px;
+    padding: 0px 0px 10px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -168,6 +185,7 @@ img {
 .feautres-container-column div {
     display: flex;
     width: 400px;
+    height: 115px;
     align-items: center;
     justify-content: space-between;
 }
@@ -192,18 +210,22 @@ img {
     align-self: flex-start;
     color: white;
     margin: 0%;
-    padding: 50px 20px 0px 40px;
+    padding: 50px 15px 0px 50px;
     line-height: 35px;
 }
 .main-pic {
     width: 50%;
     padding-top: 0%;
-}
 
+}
+.last-title {
+    margin-top: 70px;
+}
 .third-block {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    margin-top: -10px;
   
 }
 .item-container {
@@ -217,13 +239,14 @@ img {
 }
 .item-img {
     padding-top: 0px;
-    width: 100%;
+    width: 97%;
 }
 
 
 .item-description {
     font-size: 20px; 
     width: 96%;
+    margin-top: 10px;
 } 
 h2 {
     font-size: calc(12px + 1.3vmin);
@@ -232,7 +255,7 @@ h2 {
 }
 /* ------------------------------------------------------------ */
 footer {
-    padding: 20px 45px;
+    padding: 55px 10px 10px 47px;
     background-color: whitesmoke;
     border: 1px solid rgb(219, 219, 219);
     border-top: none;
@@ -259,12 +282,15 @@ footer div p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
 }
 .footer-end h3 {
     font-family: 'Lobster', cursive; 
     font-size: 30px;
 }
 .footer-end p {
-   font-style: italic;
-    font-size: 15px;
+  
+    font-size: 17px;
+    padding: 0px 60px;
+
 }
