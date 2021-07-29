@@ -67,7 +67,6 @@ nav {
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 .banner h1 {
     text-align: left;
@@ -158,7 +157,7 @@ img {
     width: 55%;
     margin-top: 20px;
 }
-.second-colomn, .third-colomn {
+.column {
     text-align: left;
     margin-top: -10px;
 }
